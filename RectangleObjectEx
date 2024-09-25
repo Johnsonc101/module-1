@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Create a Rectangle object
+        object rectObject = new Rectangle(5.0, 3.0);
+
+        // Cast the object back to a Rectangle
+        Rectangle rect = (Rectangle)rectObject;
+
+        // Display the rectangle's details
+        Console.WriteLine(rect.ToString());
+    }
+}
